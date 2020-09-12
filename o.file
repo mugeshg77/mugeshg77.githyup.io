@@ -1,0 +1,158 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<title>RESUME</title>
+	<style type="text/css">
+ 	.navbar .collapse .navbar-nav .nav-item #link1{
+ 		padding-right:1em;
+ 	}
+ 	.navbar .collapse .navbar-nav .nav-item{
+ 		padding-left: 5em;
+ 	}
+ 	.navbar .collapse .navbar-nav .nav-item a{
+ 		color:white;
+ 	}
+ 	.navbar .collapse .navbar-nav .nav-item a:hover{
+ 		text-decoration:overline;
+ 		text-decoration-color:black;
+ 		font-weight: bold;
+ 		font-size:1.5em;  	
+ 	}
+ 
+ 	#mynav{
+ 		background-color:orange;
+ 	}
+  body{
+    padding:0;
+    margin:0;
+    height: 100%;
+    width: 100%;
+    background-color:lavender;
+    background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-size: cover;
+
+  }
+  h4{
+  	color: black;
+  }
+  h1
+  {
+  	margin-left: 500px;
+  	color: black;
+  }
+  p,li{
+  	color: black;
+  }
+  table, th, td {
+  border: 1px solid ;
+  color: blackk;
+}
+table{
+	margin-left: 100px;
+}
+</style>
+
+</head>
+<body>
+	<nav id='mynav' class='navbar navbar-light navbar-expand-md bg-faded fixed-top'>
+  <div class='container-fluid'>
+    <a class='navbar-brand' href='#'><h2 style='font-size:2.5em;color:white;'>RESUME</h2></a>
+          <button class='navbar-toggler' type='button' data-target='#tweakbar' data-toggle='collapse'>
+            <span class='navbar-toggler-icon'></span>
+          </button>
+          <div class='collapse navbar-collapse' id='tweakbar'>
+            <ul class='navbar-nav ml-top'>
+              <li class='nav-item active'><a id='link1'class='nav-link' href='#'><i class="fas fa-home"style='font-size:25px;'></i>HOME</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'><i class="fas fa-info-circle"style='font-size:25px;'></i>ABOUT ME</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'><i class="fas fa-sign-out-alt" style='font-size:25px;'></i>QUALIFICATION</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'><i class="fas fa-code"style='font-size:25px;'></i>CODING_LANGUAGES</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'><i class="fas fa-hand-point-up"style='font-size:25px;'></i>PROJECT_WORKS</a></li>
+              
+            </ul>
+          </div>
+  </div>
+</nav> 
+
+<br><br><br><br><br><br>
+<h1>MUGESH G</h1>
+<h4><u>ABOUT ME:</u></h4>
+<p>
+     &nbsp &nbsp &nbsp &nbsp I am a student at Sri sairam engineering college.I am a web developer, also good Knowledge in C and Python and also build in mini web application.
+     And some Knowle in coding and experience in front end web Application.
+
+
+
+</p>
+<h4><u>QUALIFICATION:</u></h4>
+<table>
+  <tr>
+    <th>COURSE</th>
+    <th>INSTITUTION</th>
+    <th>BOARD</th>
+    <th>PERCENTAGE</th>
+    <th>YEAR OF PASSING<th>
+  </tr>
+  <tr>
+   <td> B.tech </td>
+   <td> Sri Sairam 
+Engineering
+College
+</td>
+   <td> Anna University </td>
+   <td> 7.490 cgpa (till 5 rd semester) </td>
+   <td> 2018-2022 </td>
+
+
+  </tr>
+  <tr>
+   <td> HIGHER SECONDARY</td>
+   <td> Government
+Higher<br> Secondary
+School
+                            </td>
+   <td> State Board </td>
+   <td> 88 %
+(1057/1200)
+ </td>
+   <td>2018 </td>
+
+
+  </tr>
+  <tr>
+   <td> SSLC</td>
+   <td> Government
+Higher<br>
+School
+                            </td>
+   <td> State Board </td>
+   <td> 92.6%
+(463/500)
+
+ </td>
+   <td>2016 </td>
+
+
+  </tr>
+
+</table>
+
+<h4><u>CODING LANGUAGES:</u></h4>
+<li>Good Knowledge at python and C programming</li>
+
+<li>Good knowledge at  Windows operating  system.</li>
+<li>Web knowledge: html,css,php</li>
+
+<h4><u>PROJECT WORKS:</u></h4>
+<li>Web application for Bank Aplication Creation </li>
+</body>
+</html>
